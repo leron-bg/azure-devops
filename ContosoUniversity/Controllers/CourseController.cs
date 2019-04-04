@@ -168,6 +168,11 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+		private int Sum(int a)
+		{
+			return a * 2;
+		}
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
